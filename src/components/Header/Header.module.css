@@ -1,0 +1,9 @@
+.buttonLogo {
+    width: 891px;
+    display: flex;
+    padding: 30px 0px 0px 70px;
+}
+
+.logo img {
+    height: 30px;
+}

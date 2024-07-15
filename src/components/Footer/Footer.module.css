@@ -1,0 +1,12 @@
+.logoFoot {
+    text-align: left;
+    margin-left: 70px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 35px;
+}
+
+.logoFoot img {
+    width: 70%;
+}

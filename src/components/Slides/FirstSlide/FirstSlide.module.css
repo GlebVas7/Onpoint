@@ -1,0 +1,44 @@
+@import url('https://fonts.cdnfonts.com/css/dinpro');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.wrapper {
+    font-family: 'DINPro', sans-serif;
+    text-align: left;
+    margin: -20px 0px 0px 70px;
+}
+
+.firstText {
+    letter-spacing: 3px;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.mainText {
+    font-family: "Raleway", sans-serif;
+    letter-spacing: 7px;
+    font-size: 100px;
+    margin-top: 20px;
+    font-weight: 400;
+}
+
+.textFirstLine span {
+    font-weight: 900;
+}
+
+.textFirstLine {
+    display: flex;
+}
+
+.thirdLine {
+    display: flex;
+}
+
+.text {
+    z-index: 1000;
+}
+
+.button img {
+    margin-left: 40px;
+    width: 280px;
+    height: 75px;
+}

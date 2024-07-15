@@ -1,0 +1,123 @@
+@import url('https://fonts.cdnfonts.com/css/dinpro');
+@import url('https://fonts.cdnfonts.com/css/gilroy');
+@import url('https://db.onlinewebfonts.com/c/1dc8ecd8056a5ea7aa7de1db42b5b639?family=Gilroy-Regular');
+
+.wrapper {
+    font-family: 'DINPro', sans-serif;
+    position: absolute;
+    z-index: 1001;
+    width: 120vw;
+    height: 120vh;
+    top: -10%;
+    left: 0;
+    background: url("../../../../assets/Rectangle 9.svg");
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.wrapper.show {
+    opacity: 1;
+    visibility: visible;
+}
+
+.bodyImg {
+    position: absolute;
+    left: 15%;
+    top: 15%;
+    width: 64%;
+    z-index: 1001;
+}
+
+.close {
+    top: 18%;
+    left: 74%;
+    position: absolute;
+    z-index: 1002;
+    width: 30px;
+}
+
+.text {
+    position: relative;
+    z-index: 1002;
+    font-family: "Gilroy-Regular", sans-serif;
+    text-transform: uppercase;
+    font-size: 80px;
+    font-weight: 100;
+    letter-spacing: 13px;
+    margin-left: 55px;
+    text-align: left;
+}
+
+.textDown span {
+    font-family: 'Gilroy', sans-serif;
+}
+
+.textUp {
+    font-family: 'DINPro', sans-serif;
+    text-transform: uppercase;
+    font-size: 25px;
+    letter-spacing: 2px;
+    font-weight: 400;
+}
+
+.content {
+    margin: 170px 0 0 310px;
+}
+
+.textAndNum {
+    text-align: left;
+    position: relative;
+    z-index: 1002;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 55px;
+}
+
+.number {
+    font-family: 'Gilroy', sans-serif;
+    font-weight: 100;
+    font-size: 25px;
+    letter-spacing: 2px;
+    color: #8cc9e8;
+    margin-bottom: 10px;
+}
+
+.textNumber {
+    font-family: 'DINPro', sans-serif;
+    font-size: 25px;
+    font-weight: 100;
+    margin-bottom: 10px;
+    width: 500px;
+}
+
+.pagination {
+    display: flex;
+    margin-left: 43px;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 20px;
+    z-index: 1002;
+    position: relative;
+}
+
+.pagination img {
+    font-size: 20px;
+    width: 15px;
+    margin: 0 5px;
+}
+
+.pagination .dot {
+    height: 10px;
+    width: 10px;
+    margin: 0 5px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.pagination .active {
+    background-color: #ff69b4;
+}

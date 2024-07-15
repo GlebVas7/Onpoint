@@ -1,0 +1,26 @@
+@import url('https://fonts.cdnfonts.com/css/dinpro');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+.wrapper {
+    font-family: 'DINPro', sans-serif;
+    text-align: left;
+    margin: 100px 0 0 70px;
+}
+
+.titleText {
+    letter-spacing: 3px;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.backText {
+    position: absolute;
+    z-index: 1000;
+    top: 20%;
+    left: 8%;
+}
+
+.backTextImg {
+    max-height: 650px;
+    width: 810px;
+}

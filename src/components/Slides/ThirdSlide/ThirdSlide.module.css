@@ -1,0 +1,111 @@
+@import url('https://fonts.cdnfonts.com/css/dinpro');
+@import url('https://fonts.cdnfonts.com/css/gilroy');
+@import url('https://db.onlinewebfonts.com/c/1dc8ecd8056a5ea7aa7de1db42b5b639?family=Gilroy-Regular');
+
+.wrapper {
+    display: flex;
+    font-family: 'DINPro', sans-serif;
+    text-align: left;
+    margin-left: 55px;
+}
+
+.bottle {
+    margin-top: 25px;
+    z-index: 1002;
+}
+
+.bottleImg {
+    width: 230px;
+}
+
+.content {
+    margin: 100px 0 0 80px;
+}
+
+.textUp {
+    text-transform: uppercase;
+    font-size: 25px;
+    letter-spacing: 2px;
+}
+
+.textDown {
+    font-family: "Gilroy-Regular", sans-serif;
+    text-transform: uppercase;
+    font-size: 80px;
+    font-weight: 100;
+    letter-spacing: 13px;
+}
+
+.textDown span {
+    font-family: 'Gilroy', sans-serif;
+}
+
+.info {
+    display: flex;
+    margin-top: 140px;
+}
+
+.infoTextLeft {
+    font-size: 20px;
+    z-index: 1001;
+}
+
+.rectangleFirst {
+    top: 40%;
+    left: 25%;
+    position: absolute;
+    z-index: 1000;
+
+}
+
+.rectangleFirstImg {
+    width: 350px;
+}
+
+.rectangleSecond {
+    top: 48%;
+    left: 60%;
+    position: absolute;
+    z-index: 1000;
+}
+
+.rectangleSecondImg {
+    width: 270px;
+}
+
+.infoTextRight {
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    font-size: 20px;
+    margin-left: 100px;
+
+}
+
+.textRight {
+    margin-left: 20px;
+
+    z-index: 1001;
+}
+
+.btn {
+    width: 220px;
+    z-index: 1005;
+}
+
+.iconFirst {
+    position: absolute;
+    top: 8%;
+    left: 30%;
+    width: 60px;
+    z-index: 1001;
+}
+
+.iconSecond {
+    position: absolute;
+    top: -10%;
+    left: 25%;
+    width: 60px;
+    z-index: 1001;
+}

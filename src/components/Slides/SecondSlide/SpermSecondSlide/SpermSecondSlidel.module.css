@@ -1,0 +1,99 @@
+.firstS {
+    position: absolute;
+    top: 8%;
+    left: 37%;
+    overflow: hidden;
+}
+
+.firstSImg {
+    width: 645px;
+    opacity: 0;
+    transform: translate(40%, 20%);
+    transition: opacity 3s ease-in-out, transform 2s ease-in-out;
+}
+
+.firstSImg.animate {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+.secondS {
+    position: absolute;
+    top: 8%;
+    left: 60%;
+    overflow: hidden;
+}
+
+.secondSImg {
+    max-width: 410px;
+    max-height: 100%;
+    object-fit: contain;
+    opacity: 0;
+    transform: translate(40%, 20%);
+    transition: opacity 3s ease-in-out, transform 2s ease-in-out;
+}
+
+.secondSImg.animate {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+
+.tirdS {
+    position: absolute;
+    top: 7%;
+    left: 73%;
+    overflow: hidden;
+}
+
+.tirdSImg {
+    max-width: 275px;
+    max-height: 100%;
+    object-fit: contain;
+    opacity: 0;
+    transform: translate(40%, 20%);
+    transition: opacity 3s ease-in-out, transform 2s ease-in-out;
+}
+
+.tirdSImg.animate {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+.fourthS {
+    position: absolute;
+    top: 55%;
+    left: 82%;
+    overflow: hidden;
+}
+
+.fourthSImg {
+    width: 184px;
+    opacity: 0;
+    transform: translate(40%, 20%);
+    transition: opacity 3s ease-in-out, transform 2s ease-in-out;
+}
+
+.fourthSImg.animate {
+    opacity: 1;
+    transform: translate(0, 0);
+}
+
+.fifthS {
+    position: absolute;
+    top: 72%;
+    left: 83%;
+    overflow: hidden;
+}
+
+.fifthSImg {
+    width: 174px;
+    opacity: 0;
+    transform: translate(40%, 20%);
+    transition: opacity 3s ease-in-out, transform 2s ease-in-out;
+}
+
+.fifthSImg.animate {
+    opacity: 1;
+    transform: translate(0, 0);
+}
