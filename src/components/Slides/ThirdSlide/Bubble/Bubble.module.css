@@ -2,7 +2,7 @@
     position: absolute;
     left: 7%;
     top: 22%;
-    z-index: 1001;
+    z-index: 1003;
     animation: move-scale 10s ease-in-out infinite;
 }
 
@@ -14,7 +14,7 @@
     position: absolute;
     left: 19%;
     top: 36%;
-    z-index: 1001;
+    z-index: 1003;
     animation: move-scaleSecond 10s ease-in-out infinite;
 }
 
@@ -27,7 +27,7 @@
     left: 19%;
     top: 0;
     animation: move-scaleThird 10s ease-in-out infinite;
-    z-index: 1001;
+    z-index: 1003;
 }
 
 .third img {
@@ -38,7 +38,7 @@
     position: absolute;
     left: 25%;
     top: 73%;
-    z-index: 1001;
+    z-index: 1003;
     animation: move-scaleFourth 20s ease-in-out infinite;
 }
 
@@ -50,7 +50,7 @@
     position: absolute;
     left: 18%;
     top: 12%;
-    z-index: 1003;
+    z-index: 1005;
     animation: move-scaleFifth 7s ease-in-out infinite;
 }
 
@@ -62,7 +62,7 @@
     position: absolute;
     left: 18%;
     top: 90%;
-    z-index: 1003;
+    z-index: 1005;
     animation: move-scaleSixth 10s ease-in-out infinite;
 }
 
@@ -74,7 +74,7 @@
     position: absolute;
     left: 1%;
     top: 60%;
-    z-index: 1003;
+    z-index: 1005;
     animation: move-scaleSeventh 10s ease-in-out infinite;
 }
 
@@ -86,7 +86,7 @@
     position: absolute;
     left: 1%;
     top: 74%;
-    z-index: 1003;
+    z-index: 1005;
     animation: move-scaleEighth 10s ease-in-out infinite;
 }
 
